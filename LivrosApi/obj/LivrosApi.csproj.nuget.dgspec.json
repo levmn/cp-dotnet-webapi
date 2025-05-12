@@ -1,0 +1,201 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/levimagni/coding/fiap/cp-dotnet-webapi/LivrosApi/LivrosApi.csproj": {}
+  },
+  "projects": {
+    "/Users/levimagni/coding/fiap/cp-dotnet-webapi/LivrosApi/LivrosApi.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/levimagni/coding/fiap/cp-dotnet-webapi/LivrosApi/LivrosApi.csproj",
+        "projectName": "LivrosApi",
+        "projectPath": "/Users/levimagni/coding/fiap/cp-dotnet-webapi/LivrosApi/LivrosApi.csproj",
+        "packagesPath": "/Users/levimagni/.nuget/packages/",
+        "outputPath": "/Users/levimagni/coding/fiap/cp-dotnet-webapi/LivrosApi/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/levimagni/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "/Users/levimagni/coding/fiap/cp-dotnet-webapi/LivrosBusiness/LivrosBusiness.csproj": {
+                "projectPath": "/Users/levimagni/coding/fiap/cp-dotnet-webapi/LivrosBusiness/LivrosBusiness.csproj"
+              },
+              "/Users/levimagni/coding/fiap/cp-dotnet-webapi/LivrosModel/LivrosModel.csproj": {
+                "projectPath": "/Users/levimagni/coding/fiap/cp-dotnet-webapi/LivrosModel/LivrosModel.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.OpenApi": {
+              "target": "Package",
+              "version": "[9.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.201/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/levimagni/coding/fiap/cp-dotnet-webapi/LivrosBusiness/LivrosBusiness.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/levimagni/coding/fiap/cp-dotnet-webapi/LivrosBusiness/LivrosBusiness.csproj",
+        "projectName": "LivrosBusiness",
+        "projectPath": "/Users/levimagni/coding/fiap/cp-dotnet-webapi/LivrosBusiness/LivrosBusiness.csproj",
+        "packagesPath": "/Users/levimagni/.nuget/packages/",
+        "outputPath": "/Users/levimagni/coding/fiap/cp-dotnet-webapi/LivrosBusiness/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/levimagni/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.201/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/levimagni/coding/fiap/cp-dotnet-webapi/LivrosModel/LivrosModel.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/levimagni/coding/fiap/cp-dotnet-webapi/LivrosModel/LivrosModel.csproj",
+        "projectName": "LivrosModel",
+        "projectPath": "/Users/levimagni/coding/fiap/cp-dotnet-webapi/LivrosModel/LivrosModel.csproj",
+        "packagesPath": "/Users/levimagni/.nuget/packages/",
+        "outputPath": "/Users/levimagni/coding/fiap/cp-dotnet-webapi/LivrosModel/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/levimagni/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.201/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
