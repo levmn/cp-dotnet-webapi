@@ -1,4 +1,6 @@
+using Microsoft.EntityFrameworkCore;
 using LivrosBusiness;
+using LivrosData;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -9,7 +11,9 @@ builder.Services.AddOpenApi();
 builder.Services.AddOpenApi();
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
-builder.Services.AddSingleton<LivroService>();
+builder.Services.AddScoped<LivroService>();
+builder.Services.AddDbContext<LivrosDbContext>(options =>
+    options.UseOracle(builder.Configuration.GetConnectionString("DefaultConnection")));
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
