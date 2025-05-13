@@ -1,22 +1,29 @@
+using DotNetEnv;
 using Microsoft.EntityFrameworkCore;
 using LivrosBusiness;
 using LivrosData;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container.
-// Learn more about configuring OpenAPI at https://aka.ms/aspnet/openapi
-builder.Services.AddOpenApi();
+Env.Load();
 
-builder.Services.AddOpenApi();
+var dbUser = Environment.GetEnvironmentVariable("DB_USER");
+var dbPassword = Environment.GetEnvironmentVariable("DB_PASSWORD");
+
+var baseConnection = builder.Configuration.GetConnectionString("DefaultConnection");
+
+var connectionString = $"User Id={dbUser};Password={dbPassword};{baseConnection}";
+
+builder.Services.AddDbContext<LivrosDbContext>(options =>
+    options.UseOracle(connectionString));
+
+builder.Services.AddScoped<LivroService>();
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
-builder.Services.AddScoped<LivroService>();
-builder.Services.AddDbContext<LivrosDbContext>(options =>
-    options.UseOracle(builder.Configuration.GetConnectionString("DefaultConnection")));
+builder.Services.AddOpenApi();
+
 var app = builder.Build();
 
-// Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {
     app.MapOpenApi();
