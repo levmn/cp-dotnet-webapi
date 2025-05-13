@@ -1,11 +1,11 @@
+/Users/levimagni/coding/fiap/cp-dotnet-webapi/LivrosModel/bin/Debug/net9.0/LivrosModel.deps.json
+/Users/levimagni/coding/fiap/cp-dotnet-webapi/LivrosModel/bin/Debug/net9.0/LivrosModel.dll
+/Users/levimagni/coding/fiap/cp-dotnet-webapi/LivrosModel/bin/Debug/net9.0/LivrosModel.pdb
 /Users/levimagni/coding/fiap/cp-dotnet-webapi/LivrosModel/obj/Debug/net9.0/LivrosModel.GeneratedMSBuildEditorConfig.editorconfig
 /Users/levimagni/coding/fiap/cp-dotnet-webapi/LivrosModel/obj/Debug/net9.0/LivrosModel.AssemblyInfoInputs.cache
 /Users/levimagni/coding/fiap/cp-dotnet-webapi/LivrosModel/obj/Debug/net9.0/LivrosModel.AssemblyInfo.cs
 /Users/levimagni/coding/fiap/cp-dotnet-webapi/LivrosModel/obj/Debug/net9.0/LivrosModel.csproj.CoreCompileInputs.cache
 /Users/levimagni/coding/fiap/cp-dotnet-webapi/LivrosModel/obj/Debug/net9.0/LivrosModel.sourcelink.json
-/Users/levimagni/coding/fiap/cp-dotnet-webapi/LivrosModel/bin/Debug/net9.0/LivrosModel.deps.json
-/Users/levimagni/coding/fiap/cp-dotnet-webapi/LivrosModel/bin/Debug/net9.0/LivrosModel.dll
-/Users/levimagni/coding/fiap/cp-dotnet-webapi/LivrosModel/bin/Debug/net9.0/LivrosModel.pdb
 /Users/levimagni/coding/fiap/cp-dotnet-webapi/LivrosModel/obj/Debug/net9.0/LivrosModel.dll
 /Users/levimagni/coding/fiap/cp-dotnet-webapi/LivrosModel/obj/Debug/net9.0/refint/LivrosModel.dll
 /Users/levimagni/coding/fiap/cp-dotnet-webapi/LivrosModel/obj/Debug/net9.0/LivrosModel.pdb

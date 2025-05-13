@@ -14,3 +14,5 @@
 /Users/levimagni/coding/fiap/cp-dotnet-webapi/LivrosBusiness/obj/Debug/net9.0/refint/LivrosBusiness.dll
 /Users/levimagni/coding/fiap/cp-dotnet-webapi/LivrosBusiness/obj/Debug/net9.0/LivrosBusiness.pdb
 /Users/levimagni/coding/fiap/cp-dotnet-webapi/LivrosBusiness/obj/Debug/net9.0/ref/LivrosBusiness.dll
+/Users/levimagni/coding/fiap/cp-dotnet-webapi/LivrosBusiness/bin/Debug/net9.0/LivrosData.dll
+/Users/levimagni/coding/fiap/cp-dotnet-webapi/LivrosBusiness/bin/Debug/net9.0/LivrosData.pdb

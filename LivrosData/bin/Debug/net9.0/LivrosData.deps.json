@@ -11,6 +11,7 @@
           "LivrosModel": "1.0.0",
           "Microsoft.EntityFrameworkCore": "9.0.4",
           "Microsoft.EntityFrameworkCore.Design": "9.0.4",
+          "Microsoft.EntityFrameworkCore.Relational": "9.0.4",
           "Microsoft.EntityFrameworkCore.Tools": "9.0.4",
           "Oracle.EntityFrameworkCore": "9.23.80"
         },

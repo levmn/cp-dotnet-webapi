@@ -1113,6 +1113,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v9.0",
         "dependencies": {
+          "LivrosData": "1.0.0",
           "LivrosModel": "1.0.0"
         },
         "compile": {
@@ -1128,6 +1129,7 @@
         "dependencies": {
           "LivrosModel": "1.0.0",
           "Microsoft.EntityFrameworkCore": "9.0.4",
+          "Microsoft.EntityFrameworkCore.Relational": "9.0.4",
           "Oracle.EntityFrameworkCore": "9.23.80"
         },
         "compile": {

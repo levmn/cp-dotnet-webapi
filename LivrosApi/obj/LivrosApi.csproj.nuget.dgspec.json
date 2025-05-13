@@ -118,6 +118,9 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
+              "/Users/levimagni/coding/fiap/cp-dotnet-webapi/LivrosData/LivrosData.csproj": {
+                "projectPath": "/Users/levimagni/coding/fiap/cp-dotnet-webapi/LivrosData/LivrosData.csproj"
+              },
               "/Users/levimagni/coding/fiap/cp-dotnet-webapi/LivrosModel/LivrosModel.csproj": {
                 "projectPath": "/Users/levimagni/coding/fiap/cp-dotnet-webapi/LivrosModel/LivrosModel.csproj"
               }
@@ -210,6 +213,10 @@
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.0.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
               "target": "Package",
               "version": "[9.0.4, )"
             },

@@ -1,39 +1,54 @@
 using LivrosModel;
+using LivrosData;
 using System.Collections.Generic;
 using System.Linq;
 
 namespace LivrosBusiness;
+
 public class LivroService
 {
-    private static readonly List<LivroModel> _livros = new();
-    private static int _nextId = 1;
+    private readonly LivrosDbContext _context;
 
-    public List<LivroModel> ListarTodos() => _livros;
-    public LivroModel? ObterPorId(int id) => _livros.FirstOrDefault(c => c.Id == id);
+    public LivroService(LivrosDbContext context)
+    {
+        _context = context;
+    }
+
+    public List<LivroModel> ListarTodos() =>
+        _context.Livros.ToList();
+
+    public LivroModel? ObterPorId(int id) =>
+        _context.Livros.FirstOrDefault(l => l.Id == id);
 
     public LivroModel Criar(LivroModel livro)
     {
-        livro.Id = _nextId++;
-        _livros.Add(livro);
+        Console.WriteLine(">> Criando livro no banco Oracle...");
+        _context.Livros.Add(livro);
+        _context.SaveChanges();
         return livro;
     }
-  
+
     public bool Atualizar(LivroModel livro)
     {
-        var existente = ObterPorId(livro.Id);
+        var existente = _context.Livros.Find(livro.Id);
         if (existente == null) return false;
+
         existente.Titulo = livro.Titulo;
         existente.Autor = livro.Autor;
         existente.Genero = livro.Genero;
         existente.AnoPublicacao = livro.AnoPublicacao;
+
+        _context.SaveChanges();
         return true;
     }
 
     public bool Remover(int id)
     {
-        var livro = ObterPorId(id);
+        var livro = _context.Livros.Find(id);
         if (livro == null) return false;
-        _livros.Remove(livro);
+
+        _context.Livros.Remove(livro);
+        _context.SaveChanges();
         return true;
     }
 }
