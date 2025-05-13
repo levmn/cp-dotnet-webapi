@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    "net9.0": {}
+    "net9.0": {
+      "LivrosModel/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "compile": {
+          "bin/placeholder/LivrosModel.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/LivrosModel.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "LivrosModel/1.0.0": {
+      "type": "project",
+      "path": "../LivrosModel/LivrosModel.csproj",
+      "msbuildProject": "../LivrosModel/LivrosModel.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net9.0": []
+    "net9.0": [
+      "LivrosModel >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "/Users/levimagni/.nuget/packages/": {}
@@ -31,7 +50,11 @@
       "frameworks": {
         "net9.0": {
           "targetAlias": "net9.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "/Users/levimagni/coding/fiap/cp-dotnet-webapi/LivrosModel/LivrosModel.csproj": {
+              "projectPath": "/Users/levimagni/coding/fiap/cp-dotnet-webapi/LivrosModel/LivrosModel.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

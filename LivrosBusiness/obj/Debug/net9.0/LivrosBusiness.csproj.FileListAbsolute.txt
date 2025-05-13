@@ -1,0 +1,16 @@
+/Users/levimagni/coding/fiap/cp-dotnet-webapi/LivrosBusiness/bin/Debug/net9.0/LivrosBusiness.deps.json
+/Users/levimagni/coding/fiap/cp-dotnet-webapi/LivrosBusiness/bin/Debug/net9.0/LivrosBusiness.dll
+/Users/levimagni/coding/fiap/cp-dotnet-webapi/LivrosBusiness/bin/Debug/net9.0/LivrosBusiness.pdb
+/Users/levimagni/coding/fiap/cp-dotnet-webapi/LivrosBusiness/bin/Debug/net9.0/LivrosModel.dll
+/Users/levimagni/coding/fiap/cp-dotnet-webapi/LivrosBusiness/bin/Debug/net9.0/LivrosModel.pdb
+/Users/levimagni/coding/fiap/cp-dotnet-webapi/LivrosBusiness/obj/Debug/net9.0/LivrosBusiness.csproj.AssemblyReference.cache
+/Users/levimagni/coding/fiap/cp-dotnet-webapi/LivrosBusiness/obj/Debug/net9.0/LivrosBusiness.GeneratedMSBuildEditorConfig.editorconfig
+/Users/levimagni/coding/fiap/cp-dotnet-webapi/LivrosBusiness/obj/Debug/net9.0/LivrosBusiness.AssemblyInfoInputs.cache
+/Users/levimagni/coding/fiap/cp-dotnet-webapi/LivrosBusiness/obj/Debug/net9.0/LivrosBusiness.AssemblyInfo.cs
+/Users/levimagni/coding/fiap/cp-dotnet-webapi/LivrosBusiness/obj/Debug/net9.0/LivrosBusiness.csproj.CoreCompileInputs.cache
+/Users/levimagni/coding/fiap/cp-dotnet-webapi/LivrosBusiness/obj/Debug/net9.0/LivrosBusiness.sourcelink.json
+/Users/levimagni/coding/fiap/cp-dotnet-webapi/LivrosBusiness/obj/Debug/net9.0/LivrosBu.E8F09ED1.Up2Date
+/Users/levimagni/coding/fiap/cp-dotnet-webapi/LivrosBusiness/obj/Debug/net9.0/LivrosBusiness.dll
+/Users/levimagni/coding/fiap/cp-dotnet-webapi/LivrosBusiness/obj/Debug/net9.0/refint/LivrosBusiness.dll
+/Users/levimagni/coding/fiap/cp-dotnet-webapi/LivrosBusiness/obj/Debug/net9.0/LivrosBusiness.pdb
+/Users/levimagni/coding/fiap/cp-dotnet-webapi/LivrosBusiness/obj/Debug/net9.0/ref/LivrosBusiness.dll

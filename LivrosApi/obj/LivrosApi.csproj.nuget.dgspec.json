@@ -100,7 +100,11 @@
         "frameworks": {
           "net9.0": {
             "targetAlias": "net9.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "/Users/levimagni/coding/fiap/cp-dotnet-webapi/LivrosModel/LivrosModel.csproj": {
+                "projectPath": "/Users/levimagni/coding/fiap/cp-dotnet-webapi/LivrosModel/LivrosModel.csproj"
+              }
+            }
           }
         },
         "warningProperties": {

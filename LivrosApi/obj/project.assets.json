@@ -37,6 +37,9 @@
       "LivrosBusiness/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v9.0",
+        "dependencies": {
+          "LivrosModel": "1.0.0"
+        },
         "compile": {
           "bin/placeholder/LivrosBusiness.dll": {}
         },
