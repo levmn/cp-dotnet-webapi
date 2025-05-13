@@ -1,0 +1,36 @@
+@baseUrl = http://localhost:5293
+
+### 🟢 GET - Listar todos os livros
+GET {{baseUrl}}/api/Livros
+Accept: application/json
+
+### 🔵 POST - Criar um novo livro
+POST {{baseUrl}}/api/Livros
+Content-Type: application/json
+
+{
+  "Titulo": "Um apartamento em Urano",
+  "Autor": "Paul B. Preciado",
+  "Genero": "Filosofia",
+  "AnoPublicacao": 2020
+}
+
+### 🟡 GET - Obter livro por ID
+GET {{baseUrl}}/api/Livros/1
+Accept: application/json
+
+### 🟠 PUT - Atualizar livro por ID
+PUT {{baseUrl}}/api/Livros/1
+Content-Type: application/json
+
+{
+  "Id": 1,
+  "Titulo": "Um apartamento em Urano: crônicas da travessia",
+  "Autor": "Paul B. Preciado",
+  "Genero": "Filosofia",
+  "AnoPublicacao": 2020
+}
+
+### 🔴 DELETE - Remover livro por ID
+DELETE {{baseUrl}}/api/Livros/1
+Accept: application/json

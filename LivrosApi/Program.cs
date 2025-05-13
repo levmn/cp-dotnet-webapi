@@ -9,7 +9,7 @@ builder.Services.AddOpenApi();
 builder.Services.AddOpenApi();
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
-builder.Services.AddScoped<LivroService>();
+builder.Services.AddSingleton<LivroService>();
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
